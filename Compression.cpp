@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
         // setting the input file name and type separately
         set_file_name_type(argv[1], input_file_name, input_file_type);
         // this will be the name of the compressed file
-        string output_argument = input_file_name + "-reyaan_compressed_it.bin";
+        string output_argument = input_file_name + "compressed_.bin";
 
         FILE *output_file = fopen(output_argument.c_str(), "wb");
         if(output_file == NULL)
