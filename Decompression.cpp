@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
         // setting the input file name
         set_file_name(argv[1], input_file_name);
         // this will be the name of the decompressed file
-        string output_argument = input_file_name + "-reyaan_decompressed_it.";
+        string output_argument = input_file_name + "decompressed_.";
 
         // finding the file type
         int input_file_name_sz = 0;
